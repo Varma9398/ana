@@ -234,7 +234,20 @@
 
     <!-- Dashboard Section for Desktop -->
     <section class="container mx-auto p-4 py-16 hidden md:block">
-        <h2 class="text-2xl sm:text-3xl font-semibold text-center mb-12">Your Dashboard</h2>
+        <h2 class="text-2xl sm:text-3xl font-semibold text-center mb-6">Your Dashboard</h2>
+        <!-- Mobile Tracking Banner (Desktop View) -->
+        <div class="card p-4 mb-8 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-full card-inner-shadow flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#BAE1FF]" viewBox="0 0 24 24" fill="currentColor"><path d="M17 1H7C5.35 1 4 2.35 4 4v16c0 1.65 1.35 3 3 3h10c1.65 0 3-1.35 3-3V4c0-1.65-1.35-3-3-3zm1 19c0 .55-.45 1-1 1H7c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h10c.55 0 1 .45 1 1v16zM9 4h6v2H9V4z"/></svg>
+                </div>
+                <div>
+                    <div class="font-semibold">Track your data from your mobile</div>
+                    <div class="text-sm text-gray-700">PocketAnalytics is mobile-ready — check your stats anywhere.</div>
+                </div>
+            </div>
+            <span class="px-3 py-1 text-xs font-semibold rounded-full neomorphic-button">Mobile-ready</span>
+        </div>
         <div class="grid grid-cols-3 gap-8">
             <!-- Large Chart Card -->
             <div class="card p-6 col-span-2 animate-pop-in">
@@ -382,7 +395,17 @@
 
     <!-- Dashboard Section for Mobile -->
     <section class="container mx-auto p-4 py-16 block md:hidden">
-        <h2 class="text-2xl sm:text-3xl font-semibold text-center mb-12">Your Dashboard</h2>
+        <h2 class="text-2xl sm:text-3xl font-semibold text-center mb-6">Your Dashboard</h2>
+        <!-- Mobile Tracking Banner (Mobile View) -->
+        <div class="card p-4 mb-8 flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-full card-inner-shadow flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-[#BAE1FF]" viewBox="0 0 24 24" fill="currentColor"><path d="M17 1H7C5.35 1 4 2.35 4 4v16c0 1.65 1.35 3 3 3h10c1.65 0 3-1.35 3-3V4c0-1.65-1.35-3-3-3zm1 19c0 .55-.45 1-1 1H7c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h10c.55 0 1 .45 1 1v16zM9 4h6v2H9V4z"/></svg>
+            </div>
+            <div>
+                <div class="font-semibold">Track your data from your mobile</div>
+                <div class="text-sm text-gray-700">Check your PocketAnalytics stats on the go.</div>
+            </div>
+        </div>
         <div class="flex flex-col space-y-8">
             <!-- Mobile Metrics -->
             <div class="card p-6 animate-pop-in">
